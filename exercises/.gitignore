@@ -1,0 +1,5 @@
+# Ignorar siguiente archivo:
+.keep
+
+# ...excepto el fichero .gitignore
+!.gitignore
