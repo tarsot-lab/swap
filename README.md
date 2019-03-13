@@ -1,2 +1,2 @@
 # SWAP
-Servidores Web de Altas Prestaciones (ETSIIT - UGR)
+High Performance Web Servers (ETSIIT - UGR)
