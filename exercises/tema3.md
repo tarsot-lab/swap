@@ -53,7 +53,7 @@
 
 * WINDOWS	
 
-	* Usamos **netsh advfirewall firewall** para controlar el comportamiento de Firewall.
+	* Usamos *netsh advfirewall firewall* para controlar el comportamiento de Firewall.
 
 	* Privatefirewall.
 
