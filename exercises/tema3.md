@@ -23,7 +23,7 @@
 
 	Este intérprete nos permite cambiar rápidamente de una puerta de enlace a otra. Por ejemplo:
 
-	netsh interface ip set address name=”LAN”  gateway=”192.168.1.1″ gwmetric=30
+	netsh interface ip set address name=”LAN”  gateway=”192.168.1.1″ gwmetric=30  
 
 	netsh interface ip set address name=”WLAN” gateway=”192.168.2.1″ gwmetric=20
 
