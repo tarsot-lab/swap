@@ -1,4 +1,4 @@
-### Práctica 4. Asegurar la granja web
+### Práctica 4. Asegurar la granja web 
 
 Agregamos un nuevo nodo al esquema anterior, con la función de cortafuegos (FW):
 
