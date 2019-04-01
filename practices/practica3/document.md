@@ -1,4 +1,4 @@
-### Práctica 3. Balanceo de carga
+### Práctica 3. Balanceo de carga 
 
 ### Nginx
 
