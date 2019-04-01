@@ -432,7 +432,7 @@ Entonces, en la máquina que fue *maestro* previamente, ejecutamos lo siguiente:
 
 	vagrant@node0:~$ mysql -uroot -p
 
-	CHANGE MASTER TO MASTER_HOST='192.168.56.11', MASTER_USER='esclavo', MASTER_PASSWORD='esclavo', MASTER_LOG_FILE='mysql-bin.000001', MASTER_LOG_POS= 537, MASTER_PORT=3306;
+	mysql> CHANGE MASTER TO MASTER_HOST='192.168.56.11', MASTER_USER='esclavo', MASTER_PASSWORD='esclavo', MASTER_LOG_FILE='mysql-bin.000001', MASTER_LOG_POS= 537, MASTER_PORT=3306;
 
 	mysql> start slave;
 
@@ -485,4 +485,4 @@ Entonces, en la máquina que fue *maestro* previamente, ejecutamos lo siguiente:
 	10 rows in set (0.00 sec)
 
 
-	En este punto, se da por finalizada la replicación *maestro-maestro*. A partir de ahora, siempre que se modifique la información en alguna, se replicará simultáneamente en la otra base de datos.
+En este punto, se da por finalizada la replicación *maestro-maestro*. A partir de ahora, siempre que se modifique la información en alguna, se replicará simultáneamente en la otra base de datos.
