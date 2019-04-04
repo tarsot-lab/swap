@@ -137,7 +137,7 @@ Tanto la 302 como la 307, pueden utilizarse para GSLB, puesto que permiten redir
 
 La geolocalización, de direcciones IP, es una técnica utilizada para estimar la ubicación geográfica  de un dispositivo conectado a Internet utilizando la dirección IP del mismo.  Este mecanismo depende de que la dirección IP del dispositivo figure en una base de datos con su respectiva ubicación, dirección postal, ciudad, país, región o coordenadas geográficas son algunos de los niveles de detalle que se pueden registrar. Por ejemplo, puede consultarse en: <a href="https://dev.maxmind.com/geoip/geoip2/geolite2/">Geolite2</a>
 
-* Para PHP, podemos utilizar el siguiente código:
+Para PHP, podemos utilizar el siguiente código:
 
 	<?php 
 	
@@ -168,6 +168,6 @@ Aparte, podemos consultar esta información en:
 Este tipo de mecanismo permite distribuir el tráfico entre diversos servidores que (normalmente) se encuentran en diferentes ubicaciones geográficas. La idea es tener un servidor/motor de equilibrio global que reciba solicitudes de tráfico y las redireccione a ciertas ubicaciones, utilizando los criterios/algoritmos seleccionados y configurados por el administrador. Dos de los métodos más conocidos son:
 
 
-    · CDN: Red de entrega de contenido (CDN) emitida para entregar contenido y medios enriquecidos como imágenes y videos, la CDN distribuye contenido en nodos geográficamente dispersos, manteniendo la menor latencia y las velocidades más altas. Normalmente se implementa cuando se deben distribuir partes particulares de contenido en lugar de sitios web y aplicaciones enteras. 
+· CDN: Red de entrega de contenido (CDN) emitida para entregar contenido y medios enriquecidos como imágenes y videos, la CDN distribuye contenido en nodos geográficamente dispersos, manteniendo la menor latencia y las velocidades más altas. Normalmente se implementa cuando se deben distribuir partes particulares de contenido en lugar de sitios web y aplicaciones enteras. 
     
-    · NetScaler VPX: Al igual que con el equilibrio de carga local normal, VPX utiliza una jerarquía de objetos similar para equilibrar la carga de tráfico entre varias geografías. Utilizando búsquedas globales, basadas en DNS, NetScaler elige el registro respectivo que corresponde a la ubicación/sitio seleccionado.
+· NetScaler VPX: Al igual que con el equilibrio de carga local normal, VPX utiliza una jerarquía de objetos similar para equilibrar la carga de tráfico entre varias geografías. Utilizando búsquedas globales, basadas en DNS, NetScaler elige el registro respectivo que corresponde a la ubicación/sitio seleccionado.
