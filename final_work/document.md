@@ -498,7 +498,7 @@ Realizamos las peticiones con la herramienta *ab*, observando (probablemente) un
 	Waiting:       50  253 332.1    226   19705
 	Total:         58  337 390.3    301   20105
 
-El desarrollo y puesta en marcha de esta estructura, quizá algo compleja, funciona correctamente. No obstante, es susceptible de realizar actualizaciones en la parte software, además de la mejora de la propia infraestructura, con el siguiente objetivo: que sirva contenido y/o servicios según demanda, acercándose a un sistema más completo de altas prestaciones y con la suficiente escalabilidad que se le exige.
+El desarrollo y puesta en marcha de este multi-sistema, quizá algo complejo, funciona correctamente. No obstante, es susceptible de realizar actualizaciones en la parte software, además de la mejora de la propia infraestructura, con el siguiente objetivo: que sirva contenido y/o servicios según demanda, acercándose a un sistema más completo de altas prestaciones y con la suficiente escalabilidad que se le exige.
 
 ### 5. Referencias
 
